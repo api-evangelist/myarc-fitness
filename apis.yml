@@ -1,7 +1,27 @@
 aid: myarc-fitness
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/myarc-fitness.png
 name: MyARC Fitness
-description: MyARC Fitness is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MyARC (operated by Vert Analytics Limited) is an all-in-one platform that lets
+  fitness creators and coaches scale their business without writing code. Coaches
+  use MyARC to launch a branded mobile app, automate AI-personalized workout and
+  meal plans for thousands of members at once, run challenges and 1-on-1 coaching,
+  build community, and earn recurring subscription revenue. The consumer-facing
+  MyARC Fitness app ships on iOS and Android with progress tracking and
+  accountability features. As of this profile MyARC exposes no public developer
+  API, SDKs, or documentation surface — it is a creator-facing SaaS and mobile
+  product, not an API provider. Offices in London, New York, Melbourne, and India.
 url: https://raw.githubusercontent.com/api-evangelist/myarc-fitness/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fitness
+- Health and Wellness
+- Creator Economy
+- Coaching
+- Mobile App
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://myarc.io/
+- type: Website
+  name: Creator platform site
+  url: https://myarc.fitness/
+- type: SignUp
+  name: Apply as a creator
+  url: https://myarc.fitness/
+- type: TermsOfService
+  url: https://myarc.io/terms
+- type: Support
+  name: Support email
+  url: mailto:support@myarc.io
+- type: DomainSecurity
+  name: Domain security probe
+  url: security/myarc-fitness-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
